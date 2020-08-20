@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    border-style: solid;   
+    border-width: 1px;
+    border-color: red;
+}
+
+main {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    min-height: 1000px;
+    width: 100%;
+    background: url("../image/scott-webb-OxHPDs4WV8Y-unsplash.jpg") no-repeat center ;
+    background-size: cover;
+    border-style: solid;   
+    border-width: 1px;
+    border-color: red;
+}
+
+section {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+#my-name {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(26, 150, 155);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(26, 150, 155);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.grey-border {
+    background-color: grey;
+    height: 1px;
+}
+
+.bio-img {
+    margin-right: 20px;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    color: rgb(114, 113, 113);
+    height: 50px;
+    border-style: solid;   
+    border-width: 1px;
+    border-color: red;
+}
+
+.green-border {
+    background-color: rgb(26, 150, 155);
+    height: 4px;
+}
+footer h2 {
+    font-size: 20px;
+    border-style: solid;   
+    border-width: 1px;
+    border-color: red;
+    padding-top: 10px;
+
+}
