@@ -3,9 +3,6 @@
 }
 nav {
     width: 100%;
-    border-style: solid;   
-    border-width: 1px;
-    border-color: red;
 }
 
 main {
@@ -17,11 +14,11 @@ main {
     background-size: cover;
     border-style: solid;   
     border-width: 1px;
-    border-color: red;
+    border-color: rgb(255, 255, 255);
 }
 
 section {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -50,27 +47,27 @@ h1 {
 }
 
 .bio-img {
-    margin-right: 20px;
+    margin-right: 20px; 
+    width: 200px;  
 }
+
+.bio {
+    float: inline-start;
+}
+
 
 footer {
     background-color: rgb(56, 56, 56);
     color: rgb(114, 113, 113);
     height: 50px;
-    border-style: solid;   
-    border-width: 1px;
-    border-color: red;
 }
 
 .green-border {
     background-color: rgb(26, 150, 155);
     height: 4px;
 }
+
 footer h2 {
     font-size: 20px;
-    border-style: solid;   
-    border-width: 1px;
-    border-color: red;
     padding-top: 10px;
-
 }
